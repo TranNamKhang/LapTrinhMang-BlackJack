@@ -1,0 +1,13 @@
+﻿<Window x:Class="BlackJackGame.Client.Views.LeaderboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leaderboard" Height="400" Width="300">
+    <ListView x:Name="LeaderboardList">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="Player" DisplayMemberBinding="{Binding Name}"/>
+                <GridViewColumn Header="Score" DisplayMemberBinding="{Binding Score}"/>
+            </GridView>
+        </ListView.View>
+    </ListView>
+</Window>

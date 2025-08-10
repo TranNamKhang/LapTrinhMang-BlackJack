@@ -1,0 +1,27 @@
+﻿<Window x:Class="BlackJackGame.Client.Views.BetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Place Your Bet"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Height="300" Width="400"
+        Background="{StaticResource BackgroundColor}">
+    <StackPanel Margin="20">
+        <TextBlock Text="Place Your Bet" 
+                   FontSize="24" 
+                   Foreground="{StaticResource PrimaryTextColor}" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
+        <WrapPanel HorizontalAlignment="Center" Margin="0,0,0,20">
+            <Button Content="10" Style="{StaticResource ChipButtonStyle}" Click="Chip_Click"/>
+            <Button Content="50" Style="{StaticResource ChipButtonStyle}" Click="Chip_Click"/>
+            <Button Content="100" Style="{StaticResource ChipButtonStyle}" Click="Chip_Click"/>
+            <Button Content="500" Style="{StaticResource ChipButtonStyle}" Click="Chip_Click"/>
+        </WrapPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <TextBlock Text="Current Bet: " FontSize="16" Foreground="{StaticResource PrimaryTextColor}"/>
+            <TextBlock x:Name="BetAmountText" Text="0" FontSize="16" Foreground="{StaticResource AccentColor}"/>
+        </StackPanel>
+        <Button Content="Confirm" Style="{StaticResource ConfirmButtonStyle}" Click="Confirm_Click"/>
+    </StackPanel>
+</Window>
