@@ -1,0 +1,14 @@
+C:\Users\lethi\source\repos\BJ\BlackjackServer\bin\Debug\net8.0\BlackjackServer.exe
+C:\Users\lethi\source\repos\BJ\BlackjackServer\bin\Debug\net8.0\BlackjackServer.deps.json
+C:\Users\lethi\source\repos\BJ\BlackjackServer\bin\Debug\net8.0\BlackjackServer.runtimeconfig.json
+C:\Users\lethi\source\repos\BJ\BlackjackServer\bin\Debug\net8.0\BlackjackServer.dll
+C:\Users\lethi\source\repos\BJ\BlackjackServer\bin\Debug\net8.0\BlackjackServer.pdb
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.AssemblyInfoInputs.cache
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.AssemblyInfo.cs
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.csproj.CoreCompileInputs.cache
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.dll
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\refint\BlackjackServer.dll
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.pdb
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\BlackjackServer.genruntimeconfig.cache
+C:\Users\lethi\source\repos\BJ\BlackjackServer\obj\Debug\net8.0\ref\BlackjackServer.dll
