@@ -1,14 +1,12 @@
-using System.Collections.Generic;
-
-public class Dealer : Player
+namespace BlackjackWPFGame.Models
 {
-    public Dealer() : base("Dealer") { }
-
-    public void PlayTurn(Deck deck)
+    public class Dealer : Player
     {
-        while (HandValue < 17)
+        public Dealer() : base("Dealer", 0) { }
+
+        public bool ShouldHit()
         {
-            Hit(deck.DrawCard());
+            return GetHandValue() < 17;
         }
     }
 }

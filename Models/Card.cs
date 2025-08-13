@@ -1,23 +1,23 @@
-public class Card
-{
-    public string Suit { get; set; }     // "Hearts", "Diamonds", etc.
-    public string Rank { get; set; }     // "2" to "10", "J", "Q", "K", "A"
+using System;
 
-    public int Value
+namespace BlackjackWPFGame.Models
+{
+    public class Card
     {
-        get
+        public string Suit { get; private set; }
+        public string Rank { get; private set; }
+        public int Value { get; private set; }
+
+        public Card(string suit, string rank, int value)
         {
-            if (int.TryParse(Rank, out int number)) return number;
-            if (Rank == "A") return 11;
-            return 10; // J, Q, K
+            Suit = suit;
+            Rank = rank;
+            Value = value;
+        }
+
+        public override string ToString()
+        {
+            return $"{Rank} of {Suit}";
         }
     }
-
-    public Card(string suit, string rank)
-    {
-        Suit = suit;
-        Rank = rank;
-    }
-
-    public override string ToString() => $"{Rank} of {Suit}";
 }
