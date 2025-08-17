@@ -3,41 +3,36 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
-using System.Windows.Media.Media3D;
+using System.Windows.Media;
 
-namespace BlackJackGame.Client.Controls
+namespace BlackJackGame.Client
 {
     public partial class CardControl : UserControl
     {
-        private bool isFlipped = false;
-
         public CardControl()
         {
             InitializeComponent();
         }
 
-        public void FlipCard(string symbol, string imagePath)
+        public void SetSource(string path)
         {
-            CardSymbol.Text = symbol;
-            FrontBrush.Visual = new Image
+            try { CardImage.Source = new BitmapImage(new Uri(path, UriKind.RelativeOrAbsolute)); } catch { }
+        }
+
+        public void FlipTo(string newImagePath, int durationMs = 420)
+        {
+            var easeIn = new SineEase { EasingMode = EasingMode.EaseIn };
+            var easeOut = new SineEase { EasingMode = EasingMode.EaseOut };
+
+            var toHalf = new DoubleAnimation(1, 0, TimeSpan.FromMilliseconds(durationMs / 2)) { EasingFunction = easeIn };
+            toHalf.Completed += (s, e) =>
             {
-                Source = new BitmapImage(new Uri(imagePath, UriKind.Absolute)),
-                Stretch = System.Windows.Media.Stretch.UniformToFill
+                try { CardImage.Source = new BitmapImage(new Uri(newImagePath, UriKind.RelativeOrAbsolute)); } catch { }
+                Skew.BeginAnimation(SkewTransform.AngleYProperty, new DoubleAnimation(-6, 0, TimeSpan.FromMilliseconds(durationMs / 2)) { EasingFunction = easeOut });
+                Scale.BeginAnimation(ScaleTransform.ScaleXProperty, new DoubleAnimation(0, 1, TimeSpan.FromMilliseconds(durationMs / 2)) { EasingFunction = easeOut });
             };
-
-            double from = isFlipped ? 180 : 0;
-            double to = isFlipped ? 0 : 180;
-
-            var animation = new DoubleAnimation
-            {
-                From = from,
-                To = to,
-                Duration = new Duration(TimeSpan.FromSeconds(0.5)),
-                AutoReverse = false
-            };
-
-            cardRotation.BeginAnimation(AxisAngleRotation3D.AngleProperty, animation);
-            isFlipped = !isFlipped;
+            Skew.BeginAnimation(SkewTransform.AngleYProperty, new DoubleAnimation(0, 6, TimeSpan.FromMilliseconds(durationMs / 2)) { EasingFunction = easeIn });
+            Scale.BeginAnimation(ScaleTransform.ScaleXProperty, toHalf);
         }
     }
 }
