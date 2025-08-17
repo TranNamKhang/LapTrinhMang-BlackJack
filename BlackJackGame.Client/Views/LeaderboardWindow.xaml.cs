@@ -1,27 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
-namespace BlackJackGame.Client.Views
+namespace BlackJackGame.Client
 {
-    /// <summary>
-    /// Interaction logic for LeaderboardWindow.xaml
-    /// </summary>
     public partial class LeaderboardWindow : Window
     {
-        public LeaderboardWindow()
+        public LeaderboardWindow(List<LeaderboardEntry> entries)
         {
             InitializeComponent();
+            LoadLeaderboard();
+        }
+
+        private void LoadLeaderboard()
+        {
+            List<LeaderboardEntry> leaderboard = LeaderboardService.Load();
+            LeaderboardGrid.ItemsSource = leaderboard;
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
