@@ -1,48 +1,137 @@
 ﻿<Window x:Class="BlackJackGame.Client.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:controls="clr-namespace:BlackJackGame.Client.Controls"
-        Title="Blackjack" Height="600" Width="900"
-        Background="{StaticResource BackgroundColor}">
+        Title="BlackJack Game" Height="820" Width="1558"
+        WindowStartupLocation="CenterScreen" Background="#0A2342">
+    <Window.Resources>
+        <!-- Simple style for chips -->
+        <Style x:Key="ChipButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="84"/>
+            <Setter Property="Height" Value="84"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border x:Name="Bd" Background="{TemplateBinding Background}" 
+                                    CornerRadius="12" BorderThickness="2" BorderBrush="#333" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Opacity" Value="0.9"/>
+                                <Setter TargetName="Bd" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="1.06" ScaleY="1.06"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
 
     <Grid>
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <!-- Tiêu đề -->
-            <TextBlock Text="Blackjack Demo"
-                       FontSize="32"
-                       FontWeight="Bold"
-                       Foreground="{StaticResource PrimaryTextColor}"
-                       Margin="0,0,0,20"
-                       HorizontalAlignment="Center"/>
 
-            <!-- Các lá bài -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
-                <controls:CardControl x:Name="CardA" Width="100" Height="150" Margin="6"/>
-                <controls:CardControl x:Name="CardB" Width="100" Height="150" Margin="6"/>
-                <controls:CardControl x:Name="CardC" Width="100" Height="150" Margin="6"/>
+        <!-- Top info bar -->
+        <Grid Height="84" VerticalAlignment="Top" Background="#1B3B6F">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left: account + avatar -->
+            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="12">
+                <Border Width="72" Height="72" CornerRadius="8" BorderBrush="Gold" BorderThickness="3" Background="#111">
+                    <Image x:Name="PlayerAvatar" Stretch="UniformToFill"/>
+                </Border>
+                <StackPanel Margin="12,0" VerticalAlignment="Center">
+                    <TextBlock Text="My Account" Foreground="Gold" FontWeight="Bold"/>
+                    <TextBlock x:Name="AccountBalanceText" Text="$4000" Foreground="White" FontSize="16" Background="#222" Padding="6" Margin="4" TextAlignment="Center"/>
+                </StackPanel>
             </StackPanel>
 
-            <!-- Khu vực rút bài -->
-            <Border BorderBrush="{StaticResource CardBorderColor}"
-                    BorderThickness="2"
-                    CornerRadius="8"
-                    Background="{StaticResource CardBackgroundColor}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    Padding="5"
-                    Margin="0,0,0,20">
-                <Image x:Name="CardImage"
-                       Width="120"
-                       Height="180"
-                       Stretch="Uniform"/>
+            <!-- Stats -->
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Wins" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="WinsText" Text="0" Foreground="White" FontSize="16" Background="#222" Padding="6" Margin="4" TextAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Losses" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="LossesText" Text="0" Foreground="White" FontSize="16" Background="#222" Padding="6" Margin="4" TextAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Ties" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="TiesText" Text="0" Foreground="White" FontSize="16" Background="#222" Padding="6" Margin="4" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Main table area -->
+        <Canvas x:Name="MainCanvas" Margin="10,108,10,200" Background="AliceBlue">
+            <!-- Deck stack -->
+            <Image x:Name="DeckBack1" Width="84" Height="120" Canvas.Left="520" Canvas.Top="24" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="DeckBack2" Width="84" Height="120" Canvas.Left="508" Canvas.Top="40" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="DeckBack3" Width="84" Height="120" Canvas.Left="496" Canvas.Top="56" RenderOptions.BitmapScalingMode="HighQuality"/>
+
+            <!-- Player avatar area (center) -->
+            <Border Canvas.Left="420" Canvas.Top="360" BorderBrush="Gold" BorderThickness="6" CornerRadius="6" Background="#111">
+
             </Border>
+            <TextBlock Canvas.Left="470" Canvas.Top="510" Text="You" Foreground="Gold" FontWeight="Bold" FontSize="14" />
 
-            <!-- Nút chức năng -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Content="Lật bài" Style="{StaticResource PrimaryButtonStyle}" Click="FlipCards_Click"/>
-                <Button Content="Đặt cược" Style="{StaticResource PrimaryButtonStyle}" Click="PlaceBet_Click"/>
-                <Button Content="Rút bài" Style="{StaticResource PrimaryButtonStyle}" Click="DrawRandomCard_Click"/>
-            </StackPanel>
-        </StackPanel>
+            <!-- Cards -->
+            <Image x:Name="CardA" Width="84" Height="120" Canvas.Left="220" Canvas.Top="300" />
+            <Image x:Name="CardB" Width="84" Height="120" Canvas.Left="306" Canvas.Top="300" />
+            <Image x:Name="CardC" Width="84" Height="120" Canvas.Left="384" Canvas.Top="306" />
+            <Image x:Name="CardImage" Width="84" Height="120" Canvas.Left="478" Canvas.Top="300" />
+        </Canvas>
+
+        <!-- Bottom controls -->
+        <DockPanel LastChildFill="False" VerticalAlignment="Bottom" Height="200" Margin="0">
+            <Border DockPanel.Dock="Top" Height="12" Background="#0A2342"/>
+            <Grid DockPanel.Dock="Bottom" Background="#1B3B6F" Height="188">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <!-- chips -->
+                    <ColumnDefinition Width="320"/>
+                    <!-- MyBet -->
+                    <ColumnDefinition Width="*"/>
+                    <!-- actions -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Chips area -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="0" Margin="12">
+
+                    <Button Style="{StaticResource ChipButtonStyle}" Content="50" Tag="50" Background="#FFD27D" Click="ChipButton_Click"/>
+                    <Button Style="{StaticResource ChipButtonStyle}" Content="100" Tag="100" Background="#C27BD6" Click="ChipButton_Click"/>
+                    <Button Style="{StaticResource ChipButtonStyle}" Content="200" Tag="200" Background="#7EE07C" Click="ChipButton_Click"/>
+                    <Button Style="{StaticResource ChipButtonStyle}" Content="500" Tag="500" Background="#E57373" Click="ChipButton_Click"/>
+                </StackPanel>
+
+                <!-- My bet display -->
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="My Bet" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center" />
+                    <Border BorderBrush="#222" BorderThickness="2" Background="#000" Padding="6" Margin="6">
+                        <TextBlock x:Name="MyBetText" Text="$0" Foreground="Gold" FontWeight="Bold" FontSize="20" TextAlignment="Center" Width="160"/>
+                    </Border>
+                    <Button Content="Clear" Width="120" Click="ClearBet_Click" Background="#0A2342" Foreground="Gold"/>
+                </StackPanel>
+
+                <!-- Actions -->
+                <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="12">
+                    <Button x:Name="HitButton" Content="Hit" Click="HitButton_Click" Width="120" Height="50" Margin="8" Background="#FFD27D" FontWeight="Bold"/>
+                    <Button x:Name="StandButton" Content="Stand" Click="StandButton_Click" Width="120" Height="50" Margin="8" Background="#FFD27D" FontWeight="Bold"/>
+                    <Button x:Name="DealButton" Content="Deal" Click="DealButton_Click" Width="120" Height="50" Margin="8" Background="#FFD27D" FontWeight="Bold"/>
+                    <Button x:Name="LeaderboardButton" Content="Leaderboard" Click="LeaderboardButton_Click" Width="120" Height="50" Margin="8" Background="#CC7A00" FontWeight="Bold"/>
+                </StackPanel>
+            </Grid>
+        </DockPanel>
     </Grid>
 </Window>
