@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="BlackJackGame.Client.CardControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="100" Height="150">
+    <Grid>
+        <Border CornerRadius="8" Background="#111">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="16" ShadowDepth="6" Opacity="0.5"/>
+            </Border.Effect>
+            <Grid RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <SkewTransform x:Name="Skew" AngleX="0" AngleY="0"/>
+                        <ScaleTransform x:Name="Scale" ScaleX="1" ScaleY="1"/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <Image x:Name="CardImage" Stretch="UniformToFill" />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,33 @@
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.deps.json
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfoInputs.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfo.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\refint\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\ref\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.deps.json
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfoInputs.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfo.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\refint\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\ref\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.deps.json
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\bin\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfoInputs.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.AssemblyInfo.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\refint\BlackJackGame.Shared.dll
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\BlackJackGame.Shared.pdb
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Shared\obj\Debug\net9.0\ref\BlackJackGame.Shared.dll
