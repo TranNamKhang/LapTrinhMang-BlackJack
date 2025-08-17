@@ -1,0 +1,4 @@
+C:\Users\lethi\source\repos\BJ\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lethi\source\repos\BJ\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\Users\lethi\source\repos\BJ\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\Users\lethi\source\repos\BJ\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
