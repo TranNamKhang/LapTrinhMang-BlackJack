@@ -1,27 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
-namespace BlackJackGame.Client.Views
+namespace BlackJackGame.Client
 {
-    /// <summary>
-    /// Interaction logic for ResultPopup.xaml
-    /// </summary>
     public partial class ResultPopup : Window
     {
-        public ResultPopup()
+        public ResultPopup(string result)
         {
             InitializeComponent();
+            SetResult(result);
+        }
+
+        private void SetResult(string result)
+        {
+            switch (result)
+            {
+                case "Win":
+                    ResultText.Text = "🏆 You Win! 🏆";
+                    ResultText.Foreground = System.Windows.Media.Brushes.LimeGreen;
+                    break;
+                case "Lose":
+                    ResultText.Text = "💔 You Lose! 💔";
+                    ResultText.Foreground = System.Windows.Media.Brushes.Red;
+                    break;
+                case "Draw":
+                    ResultText.Text = "🤝 It's a Draw! 🤝";
+                    ResultText.Foreground = System.Windows.Media.Brushes.Gold;
+                    break;
+                default:
+                    ResultText.Text = "🎮 Game Over 🎮";
+                    ResultText.Foreground = System.Windows.Media.Brushes.White;
+                    break;
+            }
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
