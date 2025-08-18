@@ -1,0 +1,139 @@
+﻿<Window x:Class="BlackJackGame.Client.LeaderboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="🏆 Leaderboard" Height="520" Width="650"
+        Background="Transparent" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True">
+
+    <Window.Resources>
+        <!-- Nút bo góc -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="Crimson"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}"
+                                CornerRadius="10" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Opacity" Value="0.9"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Bd" Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Bd" Property="Opacity" Value="0.5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border CornerRadius="20" Padding="15" BorderThickness="2">
+        <Border.Background>
+            <!-- Gradient nền -->
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#1f1f2e" Offset="0"/>
+                <GradientStop Color="#2a2a3d" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="Gold" Offset="0"/>
+                <GradientStop Color="Orange" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Tiêu đề -->
+            <TextBlock Text="🏆 Blackjack Leaderboard"
+                       Foreground="Gold" FontSize="30" FontWeight="Bold"
+                       HorizontalAlignment="Center" Margin="0,0,0,15">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="12" ShadowDepth="0" Opacity="0.6"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
+            <!-- Bảng leaderboard -->
+            <DataGrid x:Name="LeaderboardGrid" Grid.Row="1"
+                      AutoGenerateColumns="False"
+                      Background="#202030" Foreground="White"
+                      HeadersVisibility="Column"
+                      RowHeight="65" FontSize="16"
+                      CanUserResizeRows="False"
+                      CanUserResizeColumns="False"
+                      CanUserSortColumns="False"
+                      IsReadOnly="True"
+                      BorderThickness="0"
+                      HorizontalGridLinesBrush="#444"
+                      VerticalGridLinesBrush="#444">
+
+                <!-- Style cho hàng -->
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Margin" Value="0,2"/>
+                        <Setter Property="Background" Value="#292942"/>
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Style.Triggers>
+                            <!-- Top 1 -->
+                            <DataTrigger Binding="{Binding Rank}" Value="1">
+                                <Setter Property="Background" Value="#40FFD700"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                            </DataTrigger>
+                            <!-- Top 2 -->
+                            <DataTrigger Binding="{Binding Rank}" Value="2">
+                                <Setter Property="Background" Value="#40C0C0C0"/>
+                            </DataTrigger>
+                            <!-- Top 3 -->
+                            <DataTrigger Binding="{Binding Rank}" Value="3">
+                                <Setter Property="Background" Value="#40CD7F32"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+
+                <DataGrid.Columns>
+                    <!-- Rank -->
+                    <DataGridTextColumn Header="#" Binding="{Binding Rank}" Width="50" />
+
+                    <!-- Avatar -->
+                    <DataGridTemplateColumn Header="Avatar" Width="80">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius="35" Width="55" Height="55" ClipToBounds="True"
+                                        BorderBrush="Gold" BorderThickness="1">
+                                    <Image Source="{Binding AvatarPath}" Stretch="Fill"/>
+                                </Border>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <!-- Name -->
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+
+                    <!-- Chips -->
+                    <DataGridTextColumn Header="Chips" Binding="{Binding Chips}" Width="120" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Nút đóng (dùng style bo góc) -->
+            <Button Grid.Row="2" Content="✖ Close" Width="110" Height="38" Margin="0,15,0,0"
+                    HorizontalAlignment="Center" Click="Close_Click"
+                    Style="{StaticResource RoundedButtonStyle}"/>
+        </Grid>
+    </Border>
+</Window>

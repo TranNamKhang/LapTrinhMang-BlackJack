@@ -1,0 +1,169 @@
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe.config
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.g.cs
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.baml
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe.config
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Resources\Styles.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.baml
+D:\Program Files\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe.config
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Resources\Styles.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.baml
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\App.g.cs
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
+D:\Program Files\BlackJackGame.Client (7)\BlackJackGame.Client (2)\BlackJackGame.Client\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\MainWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Resources\Styles.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\App.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\App.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\MainWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Resources\Styles.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\App.baml
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\App.g.cs
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe.config
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe
+C:\UTH\Năm 2\Học Kì hè\LapTrinhMang-BlackJack-Game_Logic - Sao chép\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.pdb
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe.config
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.exe
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\bin\Debug\BlackJackGame.Client.pdb
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.AssemblyReference.cache
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe.config
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Controls\CardControl.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\MainWindow.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Resources\Styles.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Styles\Buttons.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Styles\Colors.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\BetWindow.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\ResultPopup.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\App.baml
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Controls\CardControl.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\MainWindow.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\BetWindow.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\LeaderboardWindow.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\ResultPopup.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\Views\WinLosePopup.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\App.g.cs
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client_MarkupCompile.cache
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.g.resources
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.Properties.Resources.resources
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.GenerateResource.cache
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.csproj.CoreCompileInputs.cache
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.exe
+C:\UTH\LapTrinhMang-BlackJack-Game_Logic\BlackJackGame.Client\obj\Debug\BlackJackGame.Client.pdb
